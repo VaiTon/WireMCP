@@ -2,6 +2,9 @@
 
 # WireMCP
 
+> [!WARNING]
+> **This project is a fork of the original [WireMCP](https://github.com/0xKoda/WireMCP), rewritten using Python and the Model Context Protocol (MCP) official Python SDK.**
+
 WireMCP is a Model Context Protocol (MCP) server designed to empower Large Language Models (LLMs) with real-time network traffic analysis capabilities.
 
 By leveraging tools built on top of Wireshark's `tshark`, WireMCP captures and processes live network data, providing LLMs with structured context to assist in tasks like threat hunting, network diagnostics, and anomaly detection.
@@ -31,8 +34,8 @@ WireMCP bridges the gap between raw network data and LLM comprehension by:
 
 ## Prerequisites
 
-- Mac / Windows / Linux
 - [Wireshark](https://www.wireshark.org/download.html) (with `tshark` installed and accessible in PATH)
+- [Python 3.12+](https://www.python.org/downloads/)
 - [uv](https://docs.astral.sh/uv/) package manager
 
 ## Setup
